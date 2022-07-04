@@ -1,0 +1,207 @@
+version: "2"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - my day was horrible
+    - This is bad
+    - I am sick
+    - I am ill
+    - I am all low today
+    - Its dissapointing
+    - How irritating it is
+    - Am irritated
+    - I am not feeling well
+    - This sucks!
+    - I am feeling too bad
+    - Worst day ever!
+    - This feels bad
+    - I feel low
+    - Everything is bad today
+    - I feel very sad
+    - Feels horrible
+    - This is depressing
+    - I am depressed
+    - I feel bored
+    - I am feeling bored
+    - life is boring
+    - I am feeling empty
+    - I feel useless
+    - aweful
+    - depressed
+    - heavy
+    - I am feeling quite lost
+    - very sad
+    - unhappy
+    - bad
+    - very bad
+    - awful
+    - terrible
+    - not very good
+    - extremely sad
+    - so sad
+    - Im feeling down
+    - I'm feeling sad
+    - Im feeling sad
+    - Im not okay
+    - Im feeling low
+    - Not good
+    - I'm awful
+    - I'm feeling very sad
+    - I'm uneasy
+    - Actually I'm not fine
+    - I'm not good
+    - I am as lonely as can be
+    - I am going through a rather rough time
+    - I'm grieving
+ 
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: mood_tired
+  examples : |
+    - I'm drained
+    - I've overworked
+    - I am tired
+    - I'm exhausted
+    - I grow weary
+    - I'm worn out
+    - I'm getting tired
+    - I feel tired
+    - I'm so tired
+    - I'm completely drained out
+    - I'm very tired
+    - i was tired
+    - i feel tired
+    - i'm dead tired
+    - I'm a bit tires
+    - I was very tired
+    - I am really tired
+    - i am awfully tired
+    - i am kind of so tired
+    - I am little tired
+
+- intent: mood_bored
+  examples : |
+    - soo bored
+    - that was boring
+    - I'm bored
+    - bored
+    - boring
+    - I am getting bored
+    - Staying at home is boring
+    - very boring
+    - it bores me
+    - i had a slow day
+    - i am very bored
+    - Im kinda bored today
+    - I've never been more bored
+    - I was bored
+    - It's boring
+    - This is boring
+    - We're all bored
+    - It's very boring
+    - I'm already bored
+    - I'm bored out of my mind
+
+- intent: mood_excited
+  examples : |
+    - I am excited
+    - I'm really excited
+    - I can't begin to say how excited I am
+    - I'm thrilled
+    - I'm damn excited
+    - I'm hyped
+    - I'm very excited
+    - I felt excited
+    - It was exciting
+    - That was exciting
+    - How exciting!
+    - This is so fun
